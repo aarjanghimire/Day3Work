@@ -15,5 +15,7 @@ namespace Day3Work.Data
         }
 
         public DbSet<Day3Work.Models.Products> Products { get; set; } = default!;
+
+        public DbSet<Day3Work.Models.Users>? Users { get; set; }
     }
 }
